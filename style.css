@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(116, 198, 157, 1);
+    width: 100%;
+    height: 586px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header h1 {
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+    margin: 0.9em 0.5em;
+
+}
+
+.header-list {
+    margin-top: 0.9em;
+}
+
+nav{
+    text-align: center;
+    margin-top: 2.2em;
+    
+}
+
+nav a {
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+}
+
+
+header div img {
+    cursor: pointer;
+    margin-top: 2.2em;
+}
+
+.header-item {
+    font-family: Indie Flower;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.header-link:hover .header-item:hover{
+    color: #e47208;
+    box-shadow: 0 2px 0 0 currentColor;
+
+}
+
+.burger-menu {
+    display: none;
+}
+
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    transition: 0.35s ease;
+}
+
+.two-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headers-container  {
+    position: absolute;
+    top: 50%;
+    transform: translate(-44%, -50%);
+}
+
+.headers-container h5 {
+    color:rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 500;
+    letter-spacing: 5px;
+
+}
+
+.headers-container h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 415px;
+    
+}
+
+.headers-container p {
+    color: rgba(255, 255, 255, 0.75) ;
+    font-size: 15px;
+    font-family: Work Sans;
+    width: 415px;
+    margin-top: 20px;
+   
+}
+
+.services-exlore {
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    margin-top: 20px;
+}
+
+.services-exlore a {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    
+}
+
+.services-exlore:hover {
+    background-color: #e47208;
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+
+}
+
+.nt {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-header h5{
+    color:  #74C69D;
+    text-align: center;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 3.7em;
+    
+}
+
+.main-header h2 {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.main-header p {
+    color:  rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    margin-top: 16px;
+}
+
+
+.main-navigation {
+    margin-top: 3.5em;
+}
+
+.main-button a {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    
+}
+
+.main-button {  
+    width: 170px;
+    height: 48px;
+    background-color: rgba(33, 37, 41, 1);
+    border: none;
+    border-radius: 5px;
+    margin-top: 3.5em;
+    margin-left: 43%;
+}
+
+.main-button:hover {
+    background-color: #74C69D;
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+
+}
+
+figure img {
+    float: left;
+    max-width: 550px;
+    margin-left: 120px;
+}
+
+.figure-header h2 {
+    color:  #212529;
+    font-size: 30px;
+    font-family: Work Sans;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 90px;
+    padding-top: 10%;
+
+}
+
+.figure-header p {
+    display: flex;
+    width: 470px;
+    flex-direction: column;
+    margin-top: 1em;
+    color: rgba(33, 37, 41, 0.5) ;
+    padding-left: 90px;
+
+}
+
+.figure-button {
+    width: 170px;
+    height: 48px;
+    background-color: rgba(33, 37, 41, 1);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-left: 90px;
+}
+
+.figure-button a {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+}
+
+
+
+.figure-button:hover {
+    background-color: rgb(252, 173, 4);
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+    
+}
+
+.second-img {
+    float: right;
+    max-width: 500px;
+    margin-left: 120px;
+    margin-top: 7.5em;
+    margin-right: 7.1em;
+
+}
+
+
+.figure-header-1 h2{
+    color:  #212529;
+    font-size: 30px;
+    font-family: Work Sans;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 90px;
+    padding-top: 15%;
+
+}
+
+.figure-header-1 p{
+    display: flex;
+    width: 470px;
+    flex-direction: column;
+    margin-top: 1em;
+    color: rgba(33, 37, 41, 0.5) ;
+    padding-left: 90px;
+}
+
+.figure-button-1 {
+    width: 170px;
+    height: 48px;
+    background-color: rgba(33, 37, 41, 1);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-left: 90px;
+}
+
+.figure-button-1 a {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+}
+
+.figure-button-1:hover {
+    background-color: rgba(170, 224, 255, 1);
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+}
+
+.second-article {
+    width: 100%;
+    height: 720px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.team-header h5{
+    color:  #74C69D;
+    text-align: center;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 5.7em;
+    
+}
+
+.team-header h2 {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.team-header p {
+    color:  rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    margin-top: 16px;
+    
+}
+
+.team-members {
+    display: flex;
+    margin-top: 4.5em;
+    gap: 47px;
+
+}
+
+.member{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+    background-color: #fff;
+    width: 252px;
+    height: 299px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.member h6 {
+    font-size: 24px;
+    font-family: Kavivanar;
+    font-weight: 700;
+    color: rgba(33, 37, 41, 1);
+
+}
+
+.member p {
+    color: rgba(33, 37, 41, 0.75);
+    font-size: 15px;
+    font-family: Nosifer;
+
+}
+
+.bttn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-right: 5em;
+}
+
+
+.team-button{
+    width: 170px;
+    height: 48px;
+    background-color: rgba(33, 37, 41, 1);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-left: 90px;
+    
+}
+
+.team-button a {
+   color:  rgba(255, 255, 255, 1) ;
+   text-align: center;
+   font-size: 20px;
+   font-family: Work Sans;
+  
+}
+
+.team-button:hover {
+    background-color: rgb(9, 78, 0) ;
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    background-color: #74C69D;
+}
+
+.social-media {
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lenght {
+    margin-left: 18px;
+    font-size: 25px;
+
+}
+
+.p {
+    color: rgba(255, 255, 255, 1);
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: Work Sans;
+    
+}
+
+
+/* portfolio */
+
+.portfolio-header {
+    background-color: rgba(116, 198, 157, 1);
+    width: 100%;
+    height: 123px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-works h5{
+    color:  #74C69D;
+    text-align: center;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 3.7em;
+    
+}
+
+.portfolio-works h2 {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.portfolio-works p {
+    color:  rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    margin-top: 16px;
+    
+}
+
+.portfolio-main{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.portfolio-article {
+    display: flex;
+}
+
+.portfolio-backgrounds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 55px;
+}
+
+.portfolio-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    background-color: #74C69D;
+}
+
+.social-media {
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lenght {
+    margin-left: 18px;
+    font-size: 25px;
+   
+}
+
+.p {
+    color: rgba(255, 255, 255, 1);
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: Work Sans;
+    
+}
+
+.portfolio-photo {
+    padding-top: 50px;
+}
+
+.portfolio-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-right: 5em;
+}
+
+
+.portfolio-lrn-btn{
+    width: 170px;
+    height: 48px;
+    background-color: rgba(33, 37, 41, 1);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-left: 90px;
+    
+}
+
+.portfolio-lrn-btn a {
+   color:  rgba(255, 255, 255, 1) ;
+   text-align: center;
+   font-size: 20px;
+   font-family: Work Sans;
+  
+}
+
+.portfolio-lrn-btn:hover {
+    background-color: rgb(25, 0, 94) ;
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+    
+}
+
+/* services */
+
+.services-header {
+    background-color: rgba(116, 198, 157, 1);
+    width: 100%;
+    height: 123px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-works h5{
+    color:  #74C69D;
+    text-align: center;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 3.7em;
+    
+}
+
+.services-works h2 {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.services-works p {
+    color:  rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    margin-top: 16px;
+    
+}
+
+.services-main{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-article {
+    display: flex;
+    justify-content: space-evenly;
+    height: 700px;
+    align-items: center;
+}
+
+.service-pay {
+    display: flex;
+    margin-top: 4.5em;
+    gap: 105px;
+
+}
+
+.pay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 279px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+.pay h6 {
+    font-weight: 700;
+    color: #000;
+    font-size: 40px;
+    font-family: Indie+Flower;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.pay span {
+    color: rgba(33, 37, 41, 0.50);
+    font-size: 15px;
+    font-family: Indie+Flower;
+    text-align: center;
+
+}
+
+.pay .method {
+    color: rgba(33, 37, 41, 0.75);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 35px;
+    font-family: Indie+Flower;
+    
+}
+
+.pay p {
+    color: rgba(33, 37, 41, 0.75);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Indie+Flower;
+    
+}
+
+.pay:hover{
+    background-color:  rgba(116, 198, 157, 0.75);
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+}
+
+.green-list li {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.green-list img {
+    margin-right: 10px;
+}
+
+.services-bttn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-right: 5em;
+}
+
+.services-button {
+    width: 170px;
+    height: 48px;
+    background-color: rgba(33, 37, 41, 1);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-left: 90px;
+}
+
+.services-button a{
+    color:  rgba(255, 255, 255, 1) ;
+    text-align: center;
+    font-size: 20px;
+    font-family: Indie+Flower;
+
+}
+
+.services-button:hover {
+    background-color:  rgba(116, 198, 157, 1);
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+}
+
+.service-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    background-color: #74C69D;
+}
+
+/* contact */
+
+.contact-header {
+    background-color: rgba(116, 198, 157, 1);
+    width: 100%;
+    height: 123px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contact-works h2 {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+    margin-top: 30px;
+}
+    
+.contact-works p {
+    color:  rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    margin-top: 16px;
+        
+}
+
+.login-box {
+    float: left;
+    margin-left: 5%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+}
+
+
+.login-box  .user-box input {
+    width: 575px;
+    height: 38px;
+    font-size: 16px;
+    color: #000;
+    margin-top: 2.5em;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #EEE;
+    cursor: text;
+    
+}
+
+.login-box .user-box-1 input {
+    width: 575px;
+    height: 75px;
+    font-size: 16px;
+    color: #000;
+    margin-top: 2.5em;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #EEE;
+    cursor: text;
+}
+
+.contact-submit {
+    width: 575px;
+    height: 48px;
+    background-color: rgba(33, 37, 41, 1) ;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.contact-submit a {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    
+}
+
+.contact-submit:hover {
+    background-color:  rgba(116, 198, 157, 1);
+    box-shadow: 0 2px 0 0 currentColor;
+    cursor: pointer;
+}
+
+label {
+    position: absolute;
+    left: 4%;
+    transform: translate(10px, 4px);
+    text-align: center;
+    
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    background-color: #74C69D;
+}
